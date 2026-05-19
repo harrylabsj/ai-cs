@@ -6,7 +6,7 @@ It is a policy and workflow skill, not a webhook server. It defines when the age
 
 ## Files
 
-- `SKILL.md` - the skill definition, trigger rules, answer policy, handoff rules, structured result contract, and examples.
+- `skills/ai-cs/SKILL.md` - the skill definition, trigger rules, answer policy, handoff rules, structured result contract, and examples.
 
 ## What It Covers
 
@@ -19,10 +19,17 @@ It is a policy and workflow skill, not a webhook server. It defines when the age
 
 ## Usage
 
-Install or copy this directory into a compatible skills directory, then invoke it when handling customer-service conversations for company products or services.
+Install through Hermes from the GitHub tap-compatible path:
+
+```bash
+hermes skills tap add harrylabsj/ai-cs
+hermes skills install harrylabsj/ai-cs/skills/ai-cs
+```
+
+You can also copy `skills/ai-cs` into a compatible local skills directory, then invoke it when handling customer-service conversations for company products or services.
 
 For a channel integration, use a separate WeChat/WeCom adapter to normalize incoming messages and route the agent response back to the customer.
 
 ## Version
 
-Current version: `1.1.0`
+Current version: `1.1.1`

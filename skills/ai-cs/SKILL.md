@@ -3,7 +3,7 @@ name: ai-cs
 slug: ai-cs
 title: AI Customer Service
 description: "Use when building or running a WeChat/WeCom online customer service agent for OpenClaw or Hermes that answers company product and service questions from a local llm-wiki knowledge base, politely redirects unrelated questions, and routes risky or unsupported cases to human support. 中文触发来自真实客户问题：多少钱、怎么用、能不能、支不支持、怎么安装、出错了、打不开、怎么退款、多久发货、有没有优惠、订单在哪、发票、售后、人工。"
-version: 1.1.0
+version: 1.1.1
 author: Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
